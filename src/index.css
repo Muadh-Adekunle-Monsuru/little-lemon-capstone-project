@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: 'markazi';
+	font-style: bold;
+	font-weight: 400;
+	font-display: swap;
+	src: url(./assets/fonts/markazi.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'karla';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(./assets/fonts/karla.ttf) format('truetype');
+}
