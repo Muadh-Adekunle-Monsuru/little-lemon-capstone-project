@@ -4,10 +4,10 @@ import { Outlet } from 'react-router-dom';
 function App() {
 	return (
 		<>
-			<div className=' h-screen flex flex-col'>
-				{/* <Nav /> */}
+			<div className='flex flex-col'>
+				<Nav />
 				<Outlet />
-				{/* <Footer /> */}
+				<Footer />
 			</div>
 		</>
 	);

@@ -13,6 +13,9 @@ export default {
 				littleOrange: '#EE9972',
 				littleLightOrange: '#FBDABB',
 			},
+			backgroundImage: {
+				
+			}
 		},
 	},
 	plugins: [],
