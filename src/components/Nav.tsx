@@ -10,11 +10,9 @@ export default function Nav() {
 		if (location.pathname == '/') {
 			setInHome(true);
 			setInBooking(false);
-			console.log('in home');
 		} else {
 			setInHome(false);
 			setInBooking(true);
-			console.log('in books');
 		}
 	});
 	return (
