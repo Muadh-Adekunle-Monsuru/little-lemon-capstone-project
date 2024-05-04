@@ -68,7 +68,7 @@ export default function BookingForm({ availableSlots, setAvailableSlots }) {
 	return (
 		<div className='lg:px-20 py-10 bg-[#EDEFEE]'>
 			<form
-				className='flex flex-col md:flex-row gap-20 justify-center lg:px-20'
+				className='flex flex-col lg:flex-row gap-20 justify-center lg:px-20 items-center'
 				onSubmit={validate}
 			>
 				<div>

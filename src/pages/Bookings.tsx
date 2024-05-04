@@ -1,4 +1,4 @@
-import { useState, useReducer } from 'react';
+import { useState } from 'react';
 import BookingForm from '../components/BookingForm';
 
 export default function Bookings() {
@@ -12,9 +12,9 @@ export default function Bookings() {
 		'3:00',
 	]);
 	return (
-		<main className='bg-[#EDEFEE]'>
+		<main className='bg-[#EDEFEE] lg:h-[86vh]'>
 			<h1
-				className='font-markazi text-3xl lg:px-20 pt-10'
+				className='font-markazi text-3xl lg:px-20 pt-10 text-center lg:text-left'
 				data-test-id='heading'
 			>
 				Book a Reservation
